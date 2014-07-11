@@ -1,20 +1,15 @@
 {
     "name": "techdivision/context",
-    "type": "package",
     "description": "Context package default implementation.",
     "homepage": "https://github.com/techdivision/TechDivision_Context",
-    "license": ["OSL-3.0"],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/techdivision/TechDivision_Context"
-        }
-    ],
+    "license": [ "OSL-3.0" ],
     "require": {
         "php" : ">=5.4.0"
     },
     "autoload": {
-        "psr-0": {"TechDivision": "src/"}
+        "psr-0": { 
+            "TechDivision\\Context": [ "src/", "tests/" ]
+        }
     },
     "config":{
         "github-oauth":{
