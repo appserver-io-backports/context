@@ -36,17 +36,17 @@ class BaseContext implements Context
     
     /**
      * Array that contains the attributes of this context.
-     * 
+     *
      * @var array
      */
     protected $attributes = array();
     
     /**
      * Adds the attribute with the passed name to this context.
-     * 
+     *
      * @param string $key   The key to add the value with
      * @param mixed  $value The value to add to the context
-     * 
+     *
      * @return void
      */
     public function setAttribute($key, $value)
@@ -56,9 +56,9 @@ class BaseContext implements Context
     
     /**
      * Returns the value with the passed name from the context.
-     * 
+     *
      * @param string $key The key of the value to return from the context.
-     * 
+     *
      * @return mixed The requested attribute
      * @see \TechDivision\Context\Context::getAttribute($key)
      */
