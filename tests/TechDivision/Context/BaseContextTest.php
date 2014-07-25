@@ -36,7 +36,7 @@ class BaseContextTest extends \PHPUnit_Framework_TestCase
 
     /**
      * The servlet module instance to test.
-     * 
+     *
      * @var \TechDivision\Context\BaseContext
      */
     protected $context;

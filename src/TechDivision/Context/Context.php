@@ -36,9 +36,9 @@ interface Context
     
     /**
      * Returns the value with the passed name from the context.
-     * 
+     *
      * @param string $key The key of the value to return from the context.
-     * 
+     *
      * @return mixed The requested attribute
      */
     public function getAttribute($key);
